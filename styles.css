@@ -1,0 +1,39 @@
+/* Styling dasar (opsional, untuk tampilan lebih baik) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* 3. Pengaturan Ukuran Gambar dengan CSS */
+.profile-image {
+    /* Mengubah ukuran gambar menjadi 150x150 piksel */
+    width: 150px;
+    height: 150px;
+    
+    /* Optional: Membuat gambar menjadi lingkaran dan memberikan margin */
+    border-radius: 50%;
+    object-fit: cover; /* Memastikan gambar tetap proporsional dan mengisi kotak */
+    margin-bottom: 15px;
+    border: 3px solid #333;
+}
+
+p {
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 0.8em;
+    color: #777;
+}
